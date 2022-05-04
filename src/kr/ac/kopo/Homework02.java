@@ -26,10 +26,10 @@ public class Homework02 {
             if (i % b !=0) {
                 System.out.print(i);
                 System.out.print(" ");
-                line += 1;
-            }
-            if(line%b==0){
-                System.out.print("\n");
+                line += 1;    
+                if(line%b==0){
+                    System.out.print("\n"); // line이 if안에 있어야 자연스럽지! // 이지유 교수님 조언임 
+                }
             }
         }
     }
